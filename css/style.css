@@ -107,6 +107,10 @@ header ul li{
     color: white;
 }
 
+.center-text{
+    text-align: center;
+}
+
 header button, #jumbotron button{
     background-color: rgb(34, 86, 240);
     padding: 6px 16px;
@@ -153,22 +157,17 @@ header button, #jumbotron button{
 
 .col__business-plan{
     border: 1px solid lightgrey;
-    width: calc(100% / 3 - 14px) ;
+    width: calc(100% / 3 - 53.33px) ;
     height: 500px;
-}
-
-.center-text{
-    text-align: center;
-}
-
-.standard{
-    margin: 0 20px;
 }
 
 .business-title{
     padding: 10px 0;
 }
 
+section.business-plan > :nth-child(4){
+    margin: 0 80px;
+}
 
 
 
