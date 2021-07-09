@@ -141,6 +141,7 @@ header button, #jumbotron button{
 
 .business-plan{
     padding-top: 200px;
+    width: 100%;
 }
 
 .business-plan input{
@@ -149,6 +150,12 @@ header button, #jumbotron button{
     margin: 80px 5px 25px 15px;
 }
 
+.col__business-plan{
+    background-color: lightgreen;
+    border: 1px solid red;
+    width: 30%;
+    height: 500px;
+}
 
 
 
