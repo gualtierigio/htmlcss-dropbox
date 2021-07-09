@@ -91,6 +91,10 @@ header ul li{
     font-size: 30px;
 }
 
+.medbig-text{
+    font-size: 40px;
+}
+
 .big-text{
     font-size: 60px;
 }
@@ -127,6 +131,22 @@ header button, #jumbotron button{
 
 .jumbo-img img{
     width: 100%;
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.business-plan{
+    padding-top: 200px;
+}
+
+.business-plan input{
+    width: 20px;
+    height: 20px;
+    margin: 80px 5px 25px 15px;
 }
 
 
