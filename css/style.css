@@ -134,6 +134,7 @@ header button, #jumbotron button{
 }
 
 .container{
+    min-width: 1000px;
     width: 65%;
     margin: 0 auto;
     border: 1px solid red;
@@ -151,10 +152,21 @@ header button, #jumbotron button{
 }
 
 .col__business-plan{
-    background-color: lightgreen;
-    border: 1px solid red;
-    width: 30%;
+    border: 1px solid lightgrey;
+    width: calc(100% / 3 - 14px) ;
     height: 500px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.standard{
+    margin: 0 20px;
+}
+
+.business-title{
+    padding: 10px 0;
 }
 
 
