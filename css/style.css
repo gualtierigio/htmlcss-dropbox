@@ -36,8 +36,13 @@ header ul li{
 .margin-top-10 {
     margin-top: 10px;
 }
-.margin-top-30 {
+
+.margin-top-20 {
     margin-top: 30px;
+}
+
+.margin-top-30 {
+    margin-top: 20px;
 }
 .margin-top-45 {
     margin-top: 45px;
@@ -99,12 +104,24 @@ header ul li{
     font-size: 60px;
 }
 
+.gray-text{
+    color: rgb(114, 114, 114);
+}
+
 .black-text{
     color: black;
 }
 
 .white-text{
     color: white;
+}
+
+.semi-bold{
+    font-weight: 300;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .center-text{
@@ -161,13 +178,21 @@ header button, #jumbotron button{
     height: 500px;
 }
 
-.business-title{
-    padding: 10px 0;
-}
-
 section.business-plan > :nth-child(4){
     margin: 0 80px;
 }
+
+.business-title{
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.col-padding{
+    padding: 30px 25px 0 25px;
+}
+
+
+
 
 
 
