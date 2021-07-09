@@ -14,8 +14,7 @@ a{
 
 header{
     padding: 20px;
-    border: 1px solid red;
-    width: 1350px;
+    width: 100%;
 }
 
 header a{
@@ -55,7 +54,7 @@ header ul li{
 }
 
 .big-text{
-    font-size: 45px;
+    font-size: 60px;
 }
 
 .black-text{
@@ -66,10 +65,27 @@ header ul li{
     color: white;
 }
 
-header button{
+header button, #jumbotron button{
     background-color: rgb(34, 86, 240);
     padding: 6px 12px;
-    font-size: 10px;
     border: none;
     color: white;
+}
+
+#jumbotron{
+    height: 75vh;
+    background-color: rgb(180, 208, 231);
+    padding: 50px 100px 0 100px;
+}
+
+.start-for-free{
+    width: 300px;
+}
+
+#jumbotron h1{
+    margin-bottom: 25px;
+}
+
+#jumbotron p{
+    margin-bottom: 20px;
 }
