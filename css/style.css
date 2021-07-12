@@ -394,3 +394,10 @@ main > a{
 #security{
     background-image: url(../img/business-feature-security.png)
 }
+
+#designsvg{
+    background-image: url(../img/designit.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
