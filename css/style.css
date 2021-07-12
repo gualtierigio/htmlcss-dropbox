@@ -130,7 +130,7 @@ header ul li{
 }
 
 .semi-bold{
-    font-weight: 400;
+    font-weight: 700;
     color: rgb(75, 72, 72);
 }
 
@@ -263,6 +263,7 @@ section.footer-column{
 
 section.partner{
     margin-top: 120px;
+    margin-bottom: 80px;
 }
 
 section.partner img{
@@ -287,7 +288,29 @@ div.partner-finder a{
     color: rgb(75, 72, 72);
 }
 
+.tris-articles{
+    width: 100%;
+}
 
+.article{
+    width: calc(100% / 3 - 20px);
+    height: 450px;
+}
+
+.central-col{
+    margin: 0 30px;
+}
+
+.article a{
+    color: rgb(75, 72, 72);
+}
+
+.business-features{
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 
 
@@ -311,4 +334,28 @@ div.partner-finder a{
 
 #jumbotron p{
     margin-bottom: 20px;
+}
+
+#switching-tools{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+#coordinate{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+#multi-device{
+    background-image: url(../img/business-feature-multi-device.png)
+}
+
+#integrations{
+    background-image: url(../img/business-feature-integrations-it.png)
+}
+
+#send-files{
+    background-image: url(../img/business-feature-send-files-it.png)
+}
+
+#security{
+    background-image: url(../img/business-feature-security.png)
 }
