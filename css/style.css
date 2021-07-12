@@ -85,8 +85,12 @@ header ul li{
     float: right;
 }
 
+.inlineB{
+    display: inline-block;
+}
+
 .small-text{
-    font-size: 11px;
+    font-size:11px;
 }
 
 .normal-text{
@@ -180,7 +184,7 @@ header button, #jumbotron button{
 .col__business-plan{
     border: 1px solid lightgrey;
     width: calc(100% / 3 - 20px) ;
-    height: 500px;
+    height: 900px;
 }
 
 section.business-plan > :nth-child(4){
@@ -207,6 +211,27 @@ div.col-padding button a{
     color: white;
     text-decoration: none;
 }
+
+div.col-padding hr{
+    width: 20%;
+    color: lightgray;
+}
+
+div.col-padding ul{
+    list-style-type: none;
+}
+
+div.col-padding i{
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.col-padding li{
+    margin-top: 20px;
+}
+
+
+
 
 
 
