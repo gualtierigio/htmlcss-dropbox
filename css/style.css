@@ -93,6 +93,10 @@ header ul li{
     font-size:11px;
 }
 
+.medsmall-text{
+    font-size: 13px;
+}
+
 .normal-text{
     font-size: 16px;
 }
@@ -170,6 +174,10 @@ header button, #jumbotron button{
     border: 1px solid red;
 }
 
+.business-title{
+    font-size: 13px;
+}
+
 .business-plan{
     padding-top: 200px;
     width: 100%;
@@ -185,6 +193,7 @@ header button, #jumbotron button{
     border: 1px solid lightgrey;
     width: calc(100% / 3 - 20px) ;
     height: 900px;
+    margin-bottom: 45px;
 }
 
 section.business-plan > :nth-child(4){
@@ -200,14 +209,14 @@ section.business-plan > :nth-child(4){
     padding: 30px 25px 0 25px;
 }
 
-div.col-padding button{
+div.col-padding button, section.footer-column button{
     background-color: rgb(34, 86, 240);
     width: 100%;
     padding: 10px 0;
     border: none;
 }
 
-div.col-padding button a{
+div.col-padding button a, section.footer-column a{
     color: white;
     text-decoration: none;
 }
@@ -228,6 +237,27 @@ div.col-padding i{
 
 div.col-padding li{
     margin-top: 20px;
+}
+
+.footer-column{
+    border: 1px solid lightgray;
+}
+
+section.footer-column{
+    border-bottom: 1px solid lightgray;
+}
+
+.enterprise-container{
+    width: 100%;
+    padding: 30px;
+}
+
+.enterprise{
+    width: 70%;
+}
+
+.button-enterprise{
+    width: 30%;
 }
 
 
