@@ -327,24 +327,24 @@ main > a{
 
 .squares_container{
     width: 100%;
-    height: 400px;
+    height: 30vw;
     border: 1px solid red;
 }
 
 .squares4{
     width: 30%;
-    height: 100%;
+    height: 30vw;
     border: 1px solid red;
 }
 
 .designit{
     width: 40%;
-    height: 100%;
+    height: 30vw;
     border: 1px solid red;
 }
 
 .lil-square{
-    height: 50%;
+    height: 15vw;
     width: calc(100% / 2);
     border: 1px solid red;
 }
