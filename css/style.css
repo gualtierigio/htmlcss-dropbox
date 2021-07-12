@@ -55,9 +55,18 @@ header ul li{
     margin-top: 75px;
 }
 
+.margin-top-150 {
+    margin-top: 150px;
+}
+
 .margin-bottom-15 {
     margin-bottom: 15px;
 }
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
 .margin-bottom-30 {
     margin-bottom: 30px;
 }
@@ -172,7 +181,6 @@ header button, #jumbotron button{
     min-width: 700px;
     width: 68%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .business-title{
@@ -310,6 +318,11 @@ div.partner-finder a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
+}
+
+main > a{
+    color: rgb(34, 86, 240);
+    font-weight: 700;
 }
 
 
