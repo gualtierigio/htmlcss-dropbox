@@ -178,7 +178,7 @@ header button, #jumbotron button{
 }
 
 .container{
-    min-width: 700px;
+    min-width: 900px;
     width: 68%;
     margin: 0 auto;
 }
@@ -328,16 +328,14 @@ main > a{
 .squares_container{
     width: 100%;
     height: 30vw;
-    border: 1px solid red;
 }
 
 .squares4{
     width: 30%;
     height: 30vw;
-    border: 1px solid red;
 }
 
-.designit{
+.centered-square{
     width: 40%;
     height: 30vw;
     border: 1px solid red;
@@ -346,7 +344,10 @@ main > a{
 .lil-square{
     height: 15vw;
     width: calc(100% / 2);
-    border: 1px solid red;
+}
+
+.lil-square img{
+    filter: invert(100%) sepia(0%) saturate(7478%) hue-rotate(311deg) brightness(109%) contrast(96%);
 }
 
 
@@ -357,10 +358,40 @@ main > a{
 
 
 
+#uf img{
+    width: 70%;
+}
+
+#uf{
+    padding-left: 3vw;
+    padding-top: 7vw;
+    background-color: rgb(0, 147, 206);
+}
+
+#asu img{
+    width: 70%;
+}
+
+#asu{
+    padding-left: 4vw;
+    padding-top: 4.5vw;
+    background-color: rgb(97, 8, 43);
+}
+
+#designit img{
+    width: 85%;
+}
+
+#designit{
+    padding-left: 2vw;
+    padding-top: 5vw;
+    background-color: rgb(162, 211, 155);
+    border: 10px solid rgb(209, 242, 205);
+}
 
 #jumbotron a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #jumbotron h1{
@@ -393,11 +424,4 @@ main > a{
 
 #security{
     background-image: url(../img/business-feature-security.png)
-}
-
-#designsvg{
-    background-image: url(../img/designit.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
