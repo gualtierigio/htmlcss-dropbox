@@ -358,6 +358,72 @@ main > a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#clear_channel img{
+    width: 70%;
+}
+
+#clear_channel{
+    padding-left: 3vw;
+    padding-top: 5vw;
+    background-color: rgb(255, 216, 48);
+}
+
+#lonely_planet img{
+    width: 70%;
+}
+
+#lonely_planet{
+    padding-left: 3.5vw;
+    padding-top: 6vw;
+    background-color: rgb(13, 36, 129);
+}
+
+#hearst_corp img{
+    width: 70%;
+}
+
+#hearst_corp{
+    padding-left: 3vw;
+    padding-top: 7vw;
+    background-color: rgb(180, 208, 231);
+}
+
+#world_bicycle_relief img{
+    width: 70%;
+}
+
+#world_bicycle_relief{
+    padding-left: 3.5vw;
+    padding-top: 6vw;
+    background-color: rgb(213, 0, 31);
+}
+
+#topps img{
+    width: 70%;
+}
+
+#topps{
+    padding-left: 3.5vw;
+    padding-top: 6vw;
+    background-color: rgb(255, 28, 28);
+}
+
 #uf img{
     width: 70%;
 }
